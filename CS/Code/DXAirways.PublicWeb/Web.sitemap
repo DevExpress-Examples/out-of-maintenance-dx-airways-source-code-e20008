@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="">
+        <siteMapNode url="~/Default.aspx" title="Home"  description="DX Airways Home" />
+        <siteMapNode url="" title="Reservations"  description="Flight Reservations">
+            <siteMapNode url="" title="Not Implemented"  description="" />
+        </siteMapNode>
+        <siteMapNode url="" title="Customer Center"  description="DX Miles Frequent Flyer">
+            <siteMapNode url="" title="Not Implemented"  description="" />
+        </siteMapNode>
+        <siteMapNode url="" title="Crew Center"  description="Crew Member Portal">
+            <siteMapNode url="" title="Not Implemented"  description="" />
+        </siteMapNode>
+        <siteMapNode url="" title="About DX Airways"  description="All about DX Airways">
+            <siteMapNode url="" title="Not Implemented"  description="" />
+        </siteMapNode>
+    </siteMapNode>
+</siteMap>

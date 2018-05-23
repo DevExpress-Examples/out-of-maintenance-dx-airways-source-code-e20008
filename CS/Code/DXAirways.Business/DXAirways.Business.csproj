@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{95909D46-012A-4FC6-8F8D-49C647815A86}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DXAirways.Business</RootNamespace>
+    <AssemblyName>DXAirways.Business</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v9.2, Version=9.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\TimeSlot.cs" />
+    <Compile Include="Data\DalBase.cs" />
+    <Compile Include="Data\DataAccess.cs" />
+    <Compile Include="Engines\CrewMemberEngine.cs" />
+    <Compile Include="Engines\CustomerEngine.cs" />
+    <Compile Include="Engines\EngineBase.cs" />
+    <Compile Include="Engines\FlightEngine.cs" />
+    <Compile Include="Engines\NotificationEngine.cs" />
+    <Compile Include="Engines\SecurityEngine.cs" />
+    <Compile Include="Managers\FlightManager.cs" />
+    <Compile Include="Managers\PersonnelManager.cs" />
+    <Compile Include="OrmFactory.cs" />
+    <Compile Include="ORM\Address.cs" />
+    <Compile Include="ORM\Aircraft.cs" />
+    <Compile Include="ORM\AircraftType.cs" />
+    <Compile Include="ORM\Airport.cs" />
+    <Compile Include="ORM\CityPair.cs" />
+    <Compile Include="ORM\CrewMember.cs" />
+    <Compile Include="ORM\Customer.cs" />
+    <Compile Include="ORM\Flight.cs" />
+    <Compile Include="ORM\FlightAssignment.cs" />
+    <Compile Include="ORM\FlightCostAdjustment.cs" />
+    <Compile Include="ORM\FlightPair.cs" />
+    <Compile Include="ORM\MealSchedule.cs" />
+    <Compile Include="ORM\Person.cs" />
+    <Compile Include="ORM\Phone.cs" />
+    <Compile Include="ORM\PickList.cs" />
+    <Compile Include="ORM\PickListItem.cs" />
+    <Compile Include="ORM\PickLists.cs"></Compile>
+    <Compile Include="ORM\Role.cs" />
+    <Compile Include="ORM\VacationRate.cs" />
+    <Compile Include="ORM\VacationSchedule.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="States.cs" />
+    <Compile Include="TestClasses.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="XPOLayer.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

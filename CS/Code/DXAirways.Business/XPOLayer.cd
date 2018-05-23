@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DXAirways.Business.Orm.Person" Collapsed="true">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAEAAACEAAEAAAAECAAAAAgEAAAACAAAAIAAEAAg=</HashCode>
+      <FileName>ORM\Person.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DXAirways.Business.Orm.Customer" Collapsed="true">
+    <Position X="3.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ORM\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXAirways.Business.Orm.CrewMember" Collapsed="true">
+    <Position X="5.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAIACAACACEAAAgAAAAgAAAAAAAAAAAAAAIAIAAAAA=</HashCode>
+      <FileName>ORM\CrewMember.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXAirways.Business.Orm.Aircraft" Collapsed="true">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADEAAAAAAAAAgAAAACAAAAAAiAAAAAQAQAAAAEAAA=</HashCode>
+      <FileName>ORM\Aircraft.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DXAirways.Business.Orm.AircraftType" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAQAAAAABBAAAACAACAREAAECACEAgABAIEJIg=</HashCode>
+      <FileName>ORM\AircraftType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DXAirways.Business.Orm.Address" Collapsed="true">
+    <Position X="3.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIACgAAIAAQAAgCIoAAAAAAAAA4AAAAAAEAAABAEAAA=</HashCode>
+      <FileName>ORM\Address.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXAirways.Business.Orm.Phone" Collapsed="true">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAAAQAAAAAAAMIEACAMAAAAAQAAAAAgABAEAAA=</HashCode>
+      <FileName>ORM\Phone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DXAirways.Business.Orm.Airport" Collapsed="true">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBAAAAAIAAAAAAAACIAQAACAAAAAAAACAAAAEAAA=</HashCode>
+      <FileName>ORM\Airport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DXAirways.Business.Orm.Flight" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAQEAACAIAACgCAAgAACAAAABEQAAAAAkEAAA=</HashCode>
+      <FileName>ORM\Flight.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DXAirways.Business.Orm.FlightAssignment" Collapsed="true">
+    <Position X="11.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGACAAAAAAIAAAAAAAACAAAAAAAAAAAAAAAAAAAkgAg=</HashCode>
+      <FileName>ORM\FlightAssignment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DXAirways.Business.Orm.VacationSchedule" Collapsed="true">
+    <Position X="5.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAEAAAAAgAAAAAAACAAIgAAgAIAAEAAAAAEAEAAA=</HashCode>
+      <FileName>ORM\VacationSchedule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DXAirways.Business.Orm.VacationRate" Collapsed="true">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEADAAAAAAQAEAAgAAACgAAAAAAAAEAgAAAAAAAEAAA=</HashCode>
+      <FileName>ORM\VacationRate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DXAirways.Business.Orm.FlightCostAdjustment" Collapsed="true">
+    <Position X="11.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAgAAACAAAIAAAAAAAAAAAAAAgEEAA=</HashCode>
+      <FileName>ORM\FlightCostAdjustment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DXAirways.Business.Orm.MealSchedule" Collapsed="true">
+    <Position X="11.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAAAAYAAAACAAAIACAAAAAAEgAAQAAAAAAAAEAAA=</HashCode>
+      <FileName>ORM\MealSchedule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

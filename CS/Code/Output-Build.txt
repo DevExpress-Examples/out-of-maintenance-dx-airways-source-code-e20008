@@ -1,0 +1,14 @@
+------ Build started: Project: DXAirways.Contracts, Configuration: Debug Any CPU ------
+DXAirways.Contracts -> F:\Client Projects\DevExpress\Workspace\DX Airways\Code\DXAirways.Contracts\bin\Debug\DXAirways.Contracts.dll
+------ Build started: Project: DXAirways.Data, Configuration: Debug Any CPU ------
+DXAirways.Data -> F:\Client Projects\DevExpress\Workspace\DX Airways\Code\DXAirways.Data\bin\Debug\DXAirways.Data.dll
+------ Build started: Project: DXAirways.Proxies, Configuration: Debug Any CPU ------
+DXAirways.Proxies -> F:\Client Projects\DevExpress\Workspace\DX Airways\Code\DXAirways.Proxies\bin\Debug\DXAirways.Proxies.dll
+------ Build started: Project: DXAirways.Business, Configuration: Debug Any CPU ------
+DXAirways.Business -> F:\Client Projects\DevExpress\Workspace\DX Airways\Code\DXAirways.Business\bin\Debug\DXAirways.Business.dll
+------ Build started: Project: DXAirways.Test, Configuration: Debug Any CPU ------
+C:\Windows\Microsoft.NET\Framework\v3.5\Csc.exe /noconfig /nowarn:1701,1702 /errorreport:prompt /warn:4 /define:DEBUG;TRACE /reference:"C:\Program Files (x86)\Developer Express .NET v8.3\Sources\DevExpress.DLL\DevExpress.Data.v8.3.dll" /reference:"C:\Program Files (x86)\Developer Express .NET v8.3\Sources\DevExpress.DLL\DevExpress.Xpo.v8.3.dll" /reference:"F:\Client Projects\DevExpress\Workspace\DX Airways\Code\DXAirways.Business\bin\Debug\DXAirways.Business.dll" /reference:"F:\Client Projects\DevExpress\Workspace\DX Airways\Code\DXAirways.Proxies\bin\Debug\DXAirways.Proxies.dll" /reference:"C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.configuration.dll /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\DXAirways.Test.dll /target:library Properties\AssemblyInfo.cs XpoTests.cs
+
+Compile complete -- 0 errors, 0 warnings
+DXAirways.Test -> F:\Client Projects\DevExpress\Workspace\DX Airways\Code\DXAirways.Test\bin\Debug\DXAirways.Test.dll
+========== Build: 5 succeeded or up-to-date, 0 failed, 0 skipped ==========
